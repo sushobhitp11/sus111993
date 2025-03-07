@@ -99,4 +99,9 @@ public class UserDTO extends BaseDTO {
 	public void setImageId(Long imageId) {
 		this.imageId = imageId;
 	}
+
+	@Override
+	public String getValue() {
+		return firstName;
+	}
 }
